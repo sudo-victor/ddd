@@ -1,0 +1,28 @@
+{
+  "name": "ddd",
+  "version": "1.0.0",
+  "description": "Design dirigido à domínio",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx vitest run",
+    "test:watch": "npx vitest",
+    "lint": "eslint src --ext .ts",
+    "lint:fix": "eslint src --ext .ts --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.8.3",
+    "dayjs": "^1.11.10",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.1.0",
+    "@rocketseat/eslint-config": "^2.1.0",
+    "eslint": "^8.51.0",
+    "eslint-plugin-vitest-globals": "^1.4.0",
+    "vite-tsconfig-paths": "^4.2.1",
+    "vitest": "^0.34.6"
+  }
+}
